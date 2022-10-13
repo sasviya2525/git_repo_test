@@ -1,4 +1,6 @@
+/* purpose: this program loads sashelp.class to the casutil caslib in viya */
 /* author SASVIYA2525 */
+
 /* proc printto log='/home/sasdemo/test1_1.log'; run; */
 cas test11 authinfo="/home/&sysuserid./.authinfo" host="localhost" port=5570;
 *caslib test path='/home/sasdemo' global;
